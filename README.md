@@ -52,16 +52,25 @@ Display an image on the screen using the show method:
 
 Instush also provides command-line tools for common operations:
 
-Editor1: Flip, or convert an image to grayscale from a PPM file.
-Editor2: Scale an image from a PPM file to a specified width and height.
-Editor3: Morph between two images from PPM files gradually.
-Usage examples:
+    Editor1: Flip, or convert an image to grayscale from a PPM file.
+    Editor2: Scale an image from a PPM file to a specified width and height.
+    Editor3: Morph between two images from PPM files gradually.
 
-sh
-java Editor1 filename.ppm fh
-java Editor2 filename.ppm 100 200
-java Editor3 source.ppm target.ppm 50
+### Usage examples:
+
+    sh
+    java Editor1 filename.ppm fh
+    java Editor2 filename.ppm 100 200
+    java Editor3 source.ppm target.ppm 50
+
 Replace filename.ppm, source.ppm, and target.ppm with your actual file names, and adjust parameters as needed.
+
+## Installation
+
+To use this library, you need to have the following:
+
+    Java Development Kit (JDK) installed
+    StdDraw and StdIn libraries for handling input and output Include these in your project’s build path to run the examples provided.
 
 ## License
 This library is provided under the MIT License. Feel free to use and modify it according to your needs.
