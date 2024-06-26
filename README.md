@@ -71,6 +71,3 @@ To use this library, you need to have the following:
 
     Java Development Kit (JDK) installed
     StdDraw and StdIn libraries for handling input and output Include these in your project’s build path to run the examples provided.
-
-## License
-This library is provided under the MIT License. Feel free to use and modify it according to your needs.
