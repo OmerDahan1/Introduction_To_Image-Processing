@@ -70,4 +70,6 @@ Replace filename.ppm, source.ppm, and target.ppm with your actual file names, an
 To use this library, you need to have the following:
 
     Java Development Kit (JDK) installed
+    The code of `StdDraw.java` and `StdIn.java` is available [here](https://introcs.cs.princeton.edu/java/stdlib/StdDraw.java) and place it in the same directory as the Java files.
+
     StdDraw and StdIn libraries for handling input and output Include these in your project’s build path to run the examples provided.
